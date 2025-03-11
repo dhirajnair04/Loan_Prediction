@@ -47,4 +47,4 @@ ssh ubuntu@your-ec2-ip
 3. Run the model inside EC2.
 
 Author
-Your Name - https://github.com/dhirajnair04
+Dhiraj Nair - https://github.com/dhirajnair04
