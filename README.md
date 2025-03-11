@@ -15,26 +15,26 @@ This is a **Flask-based Loan Prediction Model** that predicts loan rejection pro
 git clone https://github.com/dhirajnair04/Loan_Prediction.git
 cd Loan_Prediction
 ```
-#### Install Dependencies
+### Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 (Ensure you have Flask, pandas, sklearn, etc.)
 
-##### Run the Flask App
+### Run the Flask App
 ```
 python appv2.py
 ```
 Visit http://127.0.0.1:5000/ in your browser.
 
-###### Docker Deployment
+### Docker Deployment
 To run the application inside a Docker container:
 ```
 docker build -t loan-prediction .
 docker run -p 5000:5000 loan-prediction
 ```
 
-###### AWS EC2 Deployment
+### AWS EC2 Deployment
 1. Transfer the .tar model file to EC2:
 ```
 scp model.tar ubuntu@your-ec2-ip:/home/ubuntu/
